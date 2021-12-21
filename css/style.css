@@ -31,7 +31,7 @@ ul {
   text-align: center;
 }
 .quiz-list {
-  margin-top: 3rem;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
