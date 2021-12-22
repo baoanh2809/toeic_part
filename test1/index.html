@@ -24,32 +24,42 @@
         <div class="name-check check-input">Please enter your full name</div>
     </div>
 
-    <div class="app check-end">
+    <div class="app check-end" style="max-width: none;">
         <div class="progress">
             <div class="progress-bar">
                 <div class="progress-percent"></div>
             </div>
         </div>
-
-        <div class="answer">
-            <div class="answer-show"></div>
+        <div class="title"style="margin:auto;text-align: center;color: #56aaff;display: block;">
+            <h1 style="display: block;padding-bottom: 34px;padding-top: 24px;">Nhấn Vào Đây Những Gì Bạn Nghe Được...</h1>
         </div>
-        <div class="audio">
-            <div class="audio-box">
+         <div class="audio">
+            <div class="audio-box"style="width: 50px;height: 66px;border: 1px solid #4d95dd;box-sizing: border-box;background: #4d95dd;border-radius: 17px;width: 67px;display: flex;align-items: center;">
                 <img src="img/volume-off-solid.svg" alt="" class="audio-button-play hidePlay" onclick="handlePlayAudio()">
                 <img src="img/volume-up-solid.svg" alt="" class="audio-button-pause activeNone">
             </div>
 
-            <audio class="audio-play"></audio>
+            <audio class="audio-play">
+            </audio>
+            
         </div>
-        <div class="show-result">
-            <div class="question">
+        <img style="display: block;width: 12%;float: left;margin-left: 35px;transform: rotate(-3deg);" src="https://igems.com.vn/uploads/baiviet/top-5-cach-ghi-nho-moi-tu-vung-tieng-anh.jpg">
+            <img style="display: block;width: 12%;float: right;margin-right: 35px;transform: rotate(4deg);" src="https://hinh365.com/wp-content/uploads/2020/06/33-328-tam-anh-ve-tre-em-hoc-tieng-anh-rat-dep-va-tien-ich-cho-chu-de-in-an-thiet-ke-cua-ban-3.jpg">
+        <div class="answer" style="height: 20vh;">
+            <div style="display:flex;justify-content:center;">
+            <div class="answer-show" style="border-bottom: 1px solid;margin-left: 5px;margin-right: 5px;display: block;/*! padding: 24px; */padding-top: 24px;padding-bottom: 24px;padding-bottom: 2px;padding-top: 55px;width: 700px;text-align: center;"></div>
+            </div>
+        </div>
+        <div class="show-result" style="justify-content: center;">
+            <div class="question" style="height: 27vh;">
                 <h3 class="question-loading">Loading...</h3>
                 <div class="question-show"></div>
 
             </div>
             <div class="check">
                 <div class="check-result">
+                    <!-- <div class="check-result-buttons hideActive" onclick="handleCheck()">Bỏ Qua</div> -->
+                    <div class="check-true-button" onclick="handleNext()">Bỏ Qua</div>
                     <div class="check-result-button hideActive" onclick="handleCheck()">Ok</div>
                 </div>
 

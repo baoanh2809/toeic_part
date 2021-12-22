@@ -239,6 +239,16 @@ body {
   overflow: hidden;
   width: 100%;
   height: 35vh;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 34vh;
+  border-bottom: 1px solid #000;
+  margin: 1em 0;
+  margin-bottom: 1em;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 15px;
 }
 .question-show {
   padding: 1rem;
@@ -254,7 +264,7 @@ body {
   margin-right: 1rem;
   margin-bottom: 1rem;
   border-radius: 18px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .question-loading {
   font-size: 2.5rem;
@@ -299,6 +309,7 @@ body {
   margin: 0 auto;
   border-radius: 1rem;
   box-shadow: 0 5px 0 0 #56226d;
+  font-size: 28px;
 }
 .check-true {
   width: 100%;
@@ -336,7 +347,9 @@ body {
   margin: 0 auto;
   border-radius: 1rem;
   box-shadow: 0 5px 0 0 #1c75b1;
+  font-size: 28px;
 }
+
 .check-false {
   width: 100%;
   height: 15vh;
